@@ -1,0 +1,62 @@
+:root {
+  --bg: #0f0f0f;
+  --bg-elev: #212121;
+  --bg-hover: #272727;
+  --bg-chip: #272727;
+  --bg-chip-active: #f1f1f1;
+  --text: #f1f1f1;
+  --text-secondary: #aaaaaa;
+  --border: #303030;
+  --red: #ff0000;
+  --header-h: 56px;
+  --sidebar-w: 240px;
+  --sidebar-w-collapsed: 72px;
+
+  color-scheme: dark;
+  font-family: 'Roboto', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:focus-visible {
+  outline: 2px solid #3ea6ff;
+  outline-offset: 2px;
+}
